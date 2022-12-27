@@ -1,0 +1,78 @@
+
+.grid-container{
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-auto-rows: minmax(220px,auto);
+  gap: 10px;
+  padding-left: 27px;
+  padding-right: 27px;
+  grid-auto-flow: dense;
+  padding-bottom: 300px;
+ 
+
+}
+
+.grid-item{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  background-color: blue;
+  border-radius: 1px;
+  border: solid 1px white;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.grid-item:hover{
+  box-shadow: inset 0px -220px 400px -200px #000000;
+  cursor: pointer;
+  
+
+
+}
+
+.wide{
+  grid-column: span 2;
+}
+
+.tall{
+  grid-row: span 2;
+}
+
+.wide-tall{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.menu-image{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.menu-image:hover{
+  opacity: 1;
+}
+
+.download-button{
+  color: white;
+}
+
+.download-icon{
+  height:20px;
+  padding-right: 30px;
+  opacity: 1;
+
+}

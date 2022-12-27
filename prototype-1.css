@@ -1,0 +1,131 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif; 
+  padding-bottom: 800px;
+  color: white;
+  overflow: visible;
+}
+
+.banner-description{
+  padding-left: 220px;
+}
+
+  h1{
+    padding-bottom: 5px;
+    font-size: 100px;
+    font-family: 'Libre Baskerville', serif;
+
+    font-style: italic;
+  }
+
+  .author{
+    margin-bottom: 90px;
+    font-size: 25px;
+  }
+
+  .ver{
+    text-decoration: none;
+    color: white;
+    padding: 17px 30px 17px 30px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-size: 15px;
+  }
+
+
+.banner{
+  background-color: rgba(0, 0, 0, 0.209);
+  width:100%;
+  height: 800px;
+  display:flex;
+  align-items: center;
+  overflow: visible;
+
+
+  background-image: url("P1013301.jpg");
+  background-attachment: fixed;
+  background-size: 107%;
+  background-blend-mode:darken;
+
+}
+
+@media (max-width: 1200px) {
+  .banner{
+    height: 500px;
+  }
+
+  .banner-description{
+    padding-left: 60px;
+  }
+
+  h1{
+    font-size: 70px;
+  }
+
+  .author{
+    font-size: 20px;
+    margin-bottom: 80px;
+  }
+
+  .ver{
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .banner{
+    height: 380px;
+  }
+
+  .banner-description{
+    padding-left: 60px;
+  }
+
+  h1{
+    font-size: 60px;
+  }
+
+  .author{
+    font-size: 17px;
+    margin-bottom: 60px;
+
+  }
+
+  .ver{
+    font-size: 10px;
+    padding: 14px 27px 14px 27px;
+  }
+
+}
+
+@media (max-width: 515px) {
+  .banner{
+    height: 350px;
+  }
+  .banner-description{
+    padding-left: 50px;
+  }
+
+
+}
+
+@media (max-width: 300px) {
+  .banner{
+    height: 125px;
+  }
+}
+
+
+
+
+
+
+
+
